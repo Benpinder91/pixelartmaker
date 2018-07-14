@@ -3,7 +3,9 @@
 
 // When size is submitted by the user, call makeGrid()
 //get rows and get columns
+let n = rows;
 let rows = $("#inputHeight").val();
+let m = columns;
 let columns = $("#inputWidth").val();
 //get table
 const table = $("#pixelCanvas");
